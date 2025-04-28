@@ -38,6 +38,16 @@ To obtain your Merchant ID and Password:
 5. Click **"Add merchant"** at the bottom of the form.
 6. Note down and securely store your **Merchant ID** and **Merchant Password** displayed on the following page.
 
+
+### Step 3: Enter Merchant ID and Password into WHMCS
+
+1. Return to your WHMCS Admin Area.
+
+2. Go to Addons → Apps & Integrations → Paykassa.
+
+3. Fill in the saved Merchant ID and Merchant Password into the respective fields and save your changes.
+
+
 Configuration is now complete.
 
 ## Contributing
