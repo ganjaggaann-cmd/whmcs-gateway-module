@@ -1,0 +1,68 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paykassa-gateway-module",
+  "displayName": "Paykassa.pro Crypto Payment Gateway",
+  "version": "1.0.0",
+  "license": "MIT",
+  "category": "gateway",
+  "description": {
+    "short": "Crypto Payment Gateway Module for WHMCS",
+    "tagline": "Integrate Paykassa.pro crypto payments with WHMCS",
+    "long": "This module provides a seamless integration of Paykassa.pro crypto payment solutions with the WHMCS billing platform. It includes both client-facing and admin-facing interfaces, supports automatic invoice status updates via webhooks, recurring billing and refund processing via API.",
+    "features": [
+      "Client and admin user interfaces",
+      "Webhook-driven invoice status updates",
+      "Recurring billing support",
+      "Refund processing via API"
+    ]
+  },
+  "logo": {
+    "src": "logo.png",
+    "alt": "Paykassa.pro Logo",
+    "dimensions": {
+      "width": 200,
+      "height": 50
+    }
+  },
+  "compatibility": {
+    "whmcs": {
+      "min": "7.6.1",
+      "max": "9.0.0"
+    },
+    "php": {
+      "min": "7.2.0",
+      "max": "8.4.0"
+    }
+  },
+  "capabilities": [
+    "ClientArea",
+    "AdminArea",
+    "Webhook",
+    "Recurring",
+    "Refund"
+  ],
+  "support": {
+    "homepage": "https://paykassa.pro/en/",
+    "documentation": "https://paykassa.pro/en/developers/",
+    "learnMore": "https://paykassa.pro/en/start/",
+    "email": "connect@paykassa.pro",
+    "supportUrl": "https://paykassa.pro/en/support/"
+  },
+  "authors": [
+    {
+      "name": "Paykassa Dev",
+      "url": "https://paykassa.pro/en/"
+    }
+  ],
+  "keywords": [
+    "crypto",
+    "payments",
+    "gateway",
+    "whmcs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paykassa-dev/whmcs-gateway-module.git"
+  }
+}
